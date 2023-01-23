@@ -10260,7 +10260,7 @@ body .hero-banner .bg {
     display:none;}
 
 
-@media only screen and (min-width: 680px) {
+@media only screen and (min-width: 450px) {
 .mobilecontent {
     display:none;}
 .desktopcontent{

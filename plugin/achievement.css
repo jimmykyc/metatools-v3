@@ -16,7 +16,7 @@
     height: 100%;
     width: 100%;
   }
-  /*------- SLIDER CSS ------*/
+
   
   #sliderAccueil {
     margin-top: 10px;
@@ -48,9 +48,7 @@
     -o-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
     transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1);
   }
-  /* --------------- MES SLIDES ---------------- */
-  
-  /*slides size (background part) */
+ 
   .slides {
     height: 100%;
     width: 65%;
@@ -95,7 +93,7 @@
       no-repeat center center;
     background-size: cover;
   }
-  /* --------------- /MES SLIDES ---------------- */
+
   
   #slideshow-inner > ul > li {
     width: 20%;
@@ -104,7 +102,7 @@
     float: left;
   }
   
-  /* On cache les boutons radio d'origine */
+ 
   #slideshow-wrap input[type="radio"] {
     position: absolute;
     left: 30%;
@@ -112,7 +110,7 @@
     visibility: hidden;
   }
   
-  /* Pour en créer de nouveaux avec un autre style */
+ 
   #slideshow-wrap label:not(.arrows) {
     z-index: 2;
     position: absolute;
@@ -132,13 +130,13 @@
     bottom: 25px;
   }
   
-  /* Action du click */
+  
   #slideshow-wrap label:not(.arrows):active {
     background-color: grey;
     bottom: 26px;
   }
   
-  /* Couleur de fond des boutons radio checked */
+ 
   #slideshow-wrap input[type="radio"]#button-1:checked ~ label[for="button-1"] {
     background-color: rgba(201, 137, 0);
   }
@@ -168,7 +166,7 @@
   }
   
   
-  /* Décalage des boutons radio */
+
   #slideshow-wrap label[for="button-1"]:not(.arrows) {
     margin-right: 175px;
   }
@@ -197,7 +195,7 @@
     margin-right: -56px;
   }
 
-  /* Décalage des images de fond au click (100% = une image) */
+ 
   #slideshow-wrap input[type="radio"]#button-1:checked ~ #slideshow-inner > ul {
     left: 0;
   }
@@ -227,7 +225,7 @@
   }
   
   label.arrows {
-    /* Flèche des boutons Gauche / Droite */
+  
     font-family: "WebSymbolsRegular";
     font-size: 25px;
     color: rgb(255, 255, 240);
@@ -261,7 +259,7 @@
   input[type="radio"]#button-7:checked ~ .arrows#arrow-8 
   {
     
-    /* Boutons Droite déplacement */
+  
     padding: 17px 24px;
     right: 10px;
     z-index: 2;
@@ -277,7 +275,7 @@
   input[type="radio"]#button-7:checked ~ .arrows#arrow-6, 
   input[type="radio"]#button-8:checked ~ .arrows#arrow-7 
   {
-    /* Boutons Gauche déplacement */
+
     padding: 17px 24px;
     border-radius: 45px;
     background: rgba(0, 0, 0, 0.8);
@@ -291,7 +289,7 @@
     transform: scaleX(-1);
   }
   
-  /*----- ONGLET DESCRIPTION SLIDER CSS ------*/
+
   
   .description {
     position: absolute;
@@ -337,7 +335,7 @@
     margin-right: 10px;
   }
   
-  /* RESPONSIVE */
+ 
   
   @media screen and (max-width: 1050px) {
     .description {
